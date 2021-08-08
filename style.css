@@ -1,0 +1,141 @@
+.container {
+  margin: auto;
+  width: 1000px;
+}
+fejlec {
+  display: flex;
+}
+#elso {
+  position: absolute;
+  top: 165px;
+  left: 435px;
+  font-size: 30px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222222
+ } 
+#masodik {
+  position: absolute;
+  top: 180px;
+  left: 435px;
+  font-size: 58px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222222
+}   
+img {
+  width: 1000px;
+  position: relative;
+}
+.bevezeto {
+  margin-top: 45px;
+  margin-bottom: 50px
+}
+.bevezeto.bekezdesek {
+  font-size: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 140%;
+}
+.felsorolas {
+  list-style-type: square;
+}
+.felirat {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 2px
+} 
+.bekezdesek {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+  font-size: 18px;
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 130%;
+} 
+.kiemelt {
+  font-size: 25px;
+  margin-bottom: 0;
+  font-weight: bold;
+  padding-top: 10px
+ } 
+.bekezdesek .uppercase {
+ text-transform: uppercase;
+ font-size: 25px;
+ margin-top: 50px;
+ margin-bottom: 35px
+} 
+#vonal {
+  background: black;
+  height: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+blockquote#masodikIdezet {
+  background: #222222;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 150px;
+  position: relative
+}  
+#masodikIdezet {
+  line-height: 130%;
+  padding-left: 30px;
+  padding-top: 0;
+  height: ;
+  padding-bottom: 40px
+  
+}  
+blockquote#masodikIdezet::before {
+  content: "“";
+  position: absolute;
+  left: 2px;
+  top: 15px;
+  font-size: 100px
+}  
+blockquote#elsoIdezet {
+  background: #222222;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative
+}  
+#elsoIdezet {
+  padding-left: 30px;
+  height: 130px;
+  padding-bottom: 20px
+} 
+blockquote#elsoIdezet::before {
+  content: "“";
+  position: absolute;
+  left: 2px;
+  bottom: 42px;
+  font-size: 100px
+}
+blockquote#harmadikIdezet {
+  background: #222222;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative
+}
+#harmadikIdezet {
+  padding-left: 30px;
+  height: 130px;
+  padding-top: 40px;
+  padding-bottom: 20px
+} 
+blockquote#harmadikIdezet::before {
+  content: "“";
+  position: absolute;
+  left: 2px;
+  bottom: 82px;
+  font-size: 100px 
+ }
